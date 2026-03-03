@@ -10,6 +10,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://flotweb.com"),
+  icons: {
+    icon: [
+      { url: "/images/logo_flot.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/images/logo_flot.png", type: "image/png" },
+    ],
+    shortcut: "/images/logo_flot.png",
+  },
   title: {
     default: "Flot Web — Agence Digitale Premium | Création de Sites & SEO",
     template: "%s | Flot Web",
