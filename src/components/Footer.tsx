@@ -90,7 +90,7 @@ export default function Footer() {
                   className="flex items-center gap-3 text-sm text-text-pale/60 transition-colors hover:text-primary-glow"
                 >
                   <Phone size={16} className="shrink-0 text-primary-glow/60" />
-                  +33 6 00 00 00 00
+                  +33 6 13 92 01 50
                 </a>
               </li>
               <li className="flex items-center gap-3 text-sm text-text-pale/60">
