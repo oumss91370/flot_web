@@ -11,35 +11,35 @@ const faqs = [
     icon: "⏱️",
     question: "Délais de livraison",
     answer:
-      "Nos sites web sont livrés en 2 à 4 semaines selon la complexité du projet. Nous respectons scrupuleusement les délais convenus dès la signature du devis.",
-    cta: { label: "En savoir plus", href: "/#services" },
+      "Nos sites sont livrés en 2 à 4 semaines selon la formule choisie. Un site Starter (499€) est livré en 1 à 2 semaines, un Essentiel (899€) en 2 à 3 semaines, un Premium (1 399€) en 3 à 4 semaines. Les délais sont fixés dès la signature du devis et scrupuleusement respectés.",
+    cta: { label: "Voir nos offres", href: "/#tarifs" },
   },
   {
     icon: "💰",
     question: "Tarifs transparents",
     answer:
-      "Sites web dès 1 200€, logos dès 150€. Aucun coût caché, devis gratuit sous 24h. Chaque offre est clairement détaillée avec toutes les prestations incluses.",
-    cta: { label: "Consultez tous nos tarifs détaillés", href: "/#tarifs" },
+      "Nos sites web démarrent à 499€ (Starter), 899€ (Essentiel), 1 399€ (Premium). L'optimisation de site existant (WordPress, Wix…) est disponible dès 199€. Aucun coût caché, devis gratuit sous 24h.",
+    cta: { label: "Consulter tous nos tarifs", href: "/#tarifs" },
   },
   {
     icon: "🎯",
     question: "Nos spécialités",
     answer:
-      "Création de sites web sur-mesure, logos professionnels, photos et vidéos de qualité. Nous couvrons l'ensemble de votre présence digitale avec une expertise multi-disciplinaire.",
-    cta: { label: "Découvrez l'étendue de nos services complets", href: "/#services" },
+      "Développement web (Next.js, React), référencement SEO, design UI/UX, maintenance & sécurité, stratégie digitale et applications mobiles iOS/Android. Chaque site est responsive, optimisé SEO et livré avec hébergement géré.",
+    cta: { label: "Découvrir nos services", href: "/#services" },
   },
   {
     icon: "🚀",
     question: "Processus de travail",
     answer:
-      "Consultation gratuite → Devis personnalisé → Validation → Création → Livraison. Un processus transparent et collaboratif, conçu pour garantir votre satisfaction à chaque étape.",
+      "1. Consultation gratuite — 2. Devis personnalisé sous 24h — 3. Validation & signature — 4. Création sur-mesure — 5. Livraison & mise en ligne. Vous suivez l'avancement à chaque étape avec des points réguliers.",
     cta: null,
   },
   {
     icon: "📞",
     question: "Support client",
     answer:
-      "Support réactif 7j/7, maintenance incluse, formation à l'utilisation. Nous restons à vos côtés même après la livraison de votre projet pour assurer votre réussite à long terme.",
+      "Support réactif 7j/7 par téléphone (+33 6 13 92 01 50) et email (contact@flotweb.com). Maintenance incluse selon la formule, formation à l'utilisation fournie à la livraison. Nous restons disponibles après la mise en ligne.",
     cta: null,
   },
 ];
