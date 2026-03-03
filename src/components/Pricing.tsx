@@ -33,7 +33,7 @@ const plans: PricingPlan[] = [
       { text: "Site vitrine 1 page", included: true },
       { text: "Design responsive", included: true },
       { text: "1 modification / mois", included: true },
-      { text: "Hébergement inclus", included: true },
+      { text: "Gestion de l'Hébergement", included: true },
       { text: "Révisions illimitées", included: false },
       { text: "Copywriting professionnel", included: false },
       { text: "Stratégie SEO", included: false },
@@ -58,7 +58,7 @@ const plans: PricingPlan[] = [
       { text: "Prise de RDV", included: true },
       { text: "Design responsive", included: true },
       { text: "Révisions illimitées", included: true },
-      { text: "Hébergement inclus", included: true },
+      { text: "Gestion de l'Hébergement", included: true },
       { text: "Base de données", included: false },
       { text: "Support 7j/7j", included: false },
       { text: "Maintenance continue", included: false },
@@ -100,8 +100,6 @@ const plans: PricingPlan[] = [
       { text: "Rapport détaillé", included: true },
       { text: "Recommandations prioritaires", included: true },
       { text: "Implémentation des correctifs", included: true },
-      { text: "Compatible WordPress", included: true },
-      { text: "Compatible Wix / Shopify", included: true },
       { text: "Suivi post-audit", included: false },
       { text: "Maintenance continue", included: false },
     ],
@@ -110,7 +108,7 @@ const plans: PricingPlan[] = [
 
 export default function Pricing() {
   return (
-    <section id="tarifs" className="relative py-28 sm:py-36 overflow-hidden">
+    <section id="tarifs" className="relative py-28 sm:py-36 overflow-hidden" aria-label="Nos tarifs et offres">
       {/* Background turquoise mer */}
       <div className="absolute inset-0 bg-[#0e2a3a]" />
       <div className="absolute inset-0 bg-linear-to-br from-[#0d3d3a]/80 via-[#0e2a3a]/60 to-[#102535]/80" />

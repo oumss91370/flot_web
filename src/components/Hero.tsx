@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden" aria-label="Accueil Flot Web">
       <motion.div
         initial={{ opacity: 0, x: -60 }}
         animate={{ opacity: 1, x: 0 }}
@@ -15,6 +15,7 @@ export default function Hero() {
           src="/images/image-arriere-plan-bateau.webp"
           alt="Proue de bateau naviguant sur l'océan — Flot Web agence digitale"
           fill
+          sizes="100vw"
           className="object-cover"
           priority
           quality={90}

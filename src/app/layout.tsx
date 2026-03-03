@@ -10,6 +10,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://flotweb.com"),
+  alternates: {
+    canonical: "https://flotweb.com",
+  },
   icons: {
     icon: [
       { url: "/images/logo_flot.png", type: "image/png" },
@@ -80,8 +83,135 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLdOrganization = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Flot Web",
+    url: "https://flotweb.com",
+    logo: "https://flotweb.com/images/logo_flot.png",
+    description:
+      "Agence digitale premium spécialisée en création de sites web sur-mesure, référencement SEO et design UI/UX.",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+33-6-13-92-01-50",
+      contactType: "customer service",
+      availableLanguage: ["French"],
+      areaServed: "FR",
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Paris",
+      addressRegion: "Île-de-France",
+      addressCountry: "FR",
+    },
+    sameAs: [],
+  };
+
+  const jsonLdWebSite = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Flot Web",
+    url: "https://flotweb.com",
+    description:
+      "Flot Web, votre agence digitale premium. Création de sites web, SEO et design UI/UX.",
+    publisher: {
+      "@type": "Organization",
+      name: "Flot Web",
+    },
+    inLanguage: "fr-FR",
+  };
+
+  const jsonLdLocalBusiness = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: "Flot Web",
+    url: "https://flotweb.com",
+    telephone: "+33613920150",
+    email: "contact@flotweb.com",
+    image: "https://flotweb.com/images/logo_flot.png",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Paris",
+      addressRegion: "Île-de-France",
+      addressCountry: "FR",
+    },
+    priceRange: "€€",
+    openingHours: "Mo-Fr 09:00-18:00",
+    areaServed: {
+      "@type": "Country",
+      name: "France",
+    },
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Services Flot Web",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Création de site web vitrine",
+            description: "Site vitrine sur-mesure, responsive et optimisé SEO.",
+          },
+          price: "499",
+          priceCurrency: "EUR",
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Site web Essentiel",
+            description: "1 à 5 pages sur-mesure, copywriting et stratégie SEO.",
+          },
+          price: "899",
+          priceCurrency: "EUR",
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Site web Premium",
+            description:
+              "5 à 10 pages, SEO avancé, base de données et support 24/7.",
+          },
+          price: "1399",
+          priceCurrency: "EUR",
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Optimisation de site existant",
+            description: "Audit vitesse, SEO et UI/UX pour sites existants.",
+          },
+          price: "199",
+          priceCurrency: "EUR",
+        },
+      ],
+    },
+  };
+
   return (
     <html lang="fr" className="scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLdOrganization),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLdWebSite),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLdLocalBusiness),
+          }}
+        />
+      </head>
       <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
   );

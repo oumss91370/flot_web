@@ -16,7 +16,7 @@ const footerLinks = {
 };
 export default function Footer() {
   return (
-    <footer className="relative border-t border-glass-border bg-bg-deep/90">
+    <footer className="relative border-t border-glass-border bg-bg-deep/90" aria-label="Pied de page Flot Web">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
         <div className="grid gap-12 md:grid-cols-4">
           <div className="md:col-span-1">

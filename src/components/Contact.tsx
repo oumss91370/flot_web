@@ -5,7 +5,7 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 export default function Contact() {
   return (
-    <section id="contact" className="relative overflow-hidden py-28 sm:py-36">
+    <section id="contact" className="relative overflow-hidden py-28 sm:py-36" aria-label="Contactez-nous">
       <div className="absolute inset-0 bg-linear-to-br from-primary/20 via-bg-deep to-bg-deep-light/30" />
       <motion.div
         animate={{ scale: [1, 1.1, 1], opacity: [0.05, 0.1, 0.05] }}
@@ -23,15 +23,15 @@ export default function Contact() {
             Contact
           </span>
           <h2 className="mt-6 text-3xl font-bold tracking-tight text-white-clean sm:text-4xl lg:text-5xl">
-            Pret a{" "}
+            Prêt à{" "}
             <span className="bg-linear-to-r from-primary-glow to-secondary bg-clip-text text-transparent">
               prendre le large
             </span>{" "}
             ?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-text-pale/70">
-            Parlez-nous de votre projet. Notre equipe vous accompagne de la
-            conception au lancement pour transformer votre vision en realite digitale.
+            Parlez-nous de votre projet. Notre équipe vous accompagne de la
+            conception au lancement pour transformer votre vision en réalité digitale.
           </p>
         </AnimatedSection>
         <AnimatedSection delay={0.2}>

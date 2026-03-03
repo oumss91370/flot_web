@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
+      <main role="main" aria-label="Contenu principal Flot Web">
         <Hero />
         <Services />
         <Pricing />

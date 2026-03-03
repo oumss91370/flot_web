@@ -5,9 +5,19 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Contactez-nous — Flot Web",
+  title: "Contactez-nous | Devis Gratuit sous 24h",
   description:
-    "Discutez de votre projet avec nos experts. Formulaire de contact, informations Flot Web et FAQ. Devis gratuit sous 24h.",
+    "Contactez Flot Web pour votre projet web. Formulaire de contact, devis gratuit sous 24h. Création de sites, SEO et design UI/UX à Paris.",
+  alternates: {
+    canonical: "https://flotweb.com/contacter",
+  },
+  openGraph: {
+    title: "Contactez Flot Web | Devis Gratuit",
+    description:
+      "Discutez de votre projet digital avec nos experts. Réponse garantie sous 24h, devis gratuit et sans engagement.",
+    url: "https://flotweb.com/contacter",
+    type: "website",
+  },
 };
 
 export default function ContactPage() {

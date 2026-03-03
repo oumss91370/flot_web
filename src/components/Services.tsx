@@ -52,7 +52,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="relative py-28 sm:py-36">
+    <section id="services" className="relative py-28 sm:py-36" aria-label="Nos services digitaux">
       {/* Background subtle gradient */}
       <div className="absolute inset-0 bg-linear-to-b from-bg-deep via-bg-deep-light/30 to-bg-deep" />
 
