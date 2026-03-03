@@ -13,7 +13,7 @@ export default function Hero() {
       >
         <Image
           src="/images/image-arriere-plan-bateau.webp"
-          alt="Proue de bateau naviguant sur ocean Flot Web agence digitale"
+          alt="Proue de bateau naviguant sur l'océan — Flot Web agence digitale"
           fill
           className="object-cover"
           priority
@@ -41,9 +41,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="max-w-4xl text-4xl font-extrabold leading-[1.1] tracking-tight text-white-clean sm:text-5xl md:text-6xl lg:text-7xl"
         >
-          Creons votre{" "}
+          Créons votre{" "}
           <span className="bg-linear-to-r from-primary-glow via-secondary to-primary-glow bg-clip-text text-transparent">
-            presence digitale
+            présence digitale
           </span>{" "}
           d&#39;exception
         </motion.h1>
@@ -53,7 +53,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="mt-6 max-w-2xl text-lg leading-relaxed text-text-pale/80 sm:text-xl"
         >
-          Sites web sur-mesure, referencement SEO et design UI/UX haut de gamme.
+          Sites web sur-mesure, référencement SEO et design UI/UX haut de gamme.
           Nous propulsons les entreprises ambitieuses vers de nouveaux horizons.
         </motion.p>
         <motion.div

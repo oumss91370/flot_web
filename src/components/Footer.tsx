@@ -9,8 +9,8 @@ const footerLinks = {
     { label: "Contact", href: "/#contact" },
   ],
   legal: [
-    { label: "Mentions legales", href: "#" },
-    { label: "Politique de confidentialite", href: "#" },
+    { label: "Mentions légales", href: "#" },
+    { label: "Politique de confidentialité", href: "#" },
     { label: "CGV", href: "#" },
   ],
 };
@@ -32,7 +32,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-text-pale/60">
-              Agence digitale premium. Nous creons des experiences web
+              Agence digitale premium. Nous créons des expériences web
               d&#39;exception pour les entreprises ambitieuses.
             </p>
           </div>
@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white-clean">
-              Legal
+              Légal
             </h4>
             <ul className="space-y-2.5">
               {footerLinks.legal.map((link) => (
@@ -102,10 +102,10 @@ export default function Footer() {
         </div>
         <div className="mt-12 flex flex-col items-center gap-4 border-t border-glass-border pt-8 sm:flex-row sm:justify-between">
           <p className="text-sm text-text-pale/40">
-            &copy; 2026 Flot Web &mdash; Tous droits reserves
+            &copy; 2026 Flot Web &mdash; Tous droits réservés
           </p>
           <p className="text-sm text-text-pale/30">
-            Concu avec passion a bord du digital
+            Conçu avec passion à bord du digital
           </p>
         </div>
       </div>

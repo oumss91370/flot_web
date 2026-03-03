@@ -143,7 +143,7 @@ export default function Pricing() {
           <p className="mx-auto mt-4 max-w-2xl text-lg text-text-pale/70">
             Choisissez la formule qui correspond à vos ambitions.
           </p>
-            <p className="mx-auto  max-w-2xl text-lg text-text-pale/70">Prix Ultra Atractifs & Aucun coût caché.
+            <p className="mx-auto  max-w-2xl text-lg text-text-pale/70">Prix Ultra Attractifs &amp; Aucun coût caché.
           </p>
         </AnimatedSection>
 
