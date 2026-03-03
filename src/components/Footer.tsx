@@ -102,7 +102,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 flex flex-col items-center gap-4 border-t border-glass-border pt-8 sm:flex-row sm:justify-between">
           <p className="text-sm text-text-pale/40">
-            &copy; 2026 Flot Web &mdash; Tous droits réservés
+            &copy; {new Date().getFullYear()} Flot Web &mdash; Tous droits réservés
           </p>
           <p className="text-sm text-text-pale/30">
             Conçu avec passion à bord du digital

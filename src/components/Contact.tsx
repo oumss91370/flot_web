@@ -58,7 +58,7 @@ export default function Contact() {
           <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-sm text-text-pale/40">
             <span className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-primary-glow" />
-              Reponse sous 24h
+              Réponse sous 24h
             </span>
             <span className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-secondary" />

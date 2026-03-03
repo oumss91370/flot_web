@@ -53,7 +53,7 @@ const plans: PricingPlan[] = [
     glowColor: "shadow-[#24919f]/30",
     features: [
       { text: "1 à 5 pages sur-mesure", included: true },
-      { text: "Stratégie SEO avancé ", included: true },
+      { text: "Stratégie SEO avancé", included: true },
       { text: "Formulaire contact", included: true },
       { text: "Prise de RDV", included: true },
       { text: "Design responsive", included: true },
@@ -77,7 +77,7 @@ const plans: PricingPlan[] = [
       { text: "Design responsive premium", included: true },
       { text: "Révisions illimitées", included: true },
       { text: "Hébergement premium", included: true },
-      { text: "Boutique en ligne Complete", included: true },
+      { text: "Boutique en ligne complète", included: true },
       { text: "SEO avancé complet", included: true },
       { text: "Base de données intégrée", included: true },
       { text: "Support prioritaire 7j/7j", included: true },
