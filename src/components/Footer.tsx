@@ -4,9 +4,9 @@ import Link from "next/link";
 import { Mail, Phone, MapPin } from "lucide-react";
 const footerLinks = {
   navigation: [
-    { label: "Services", href: "#services" },
-    { label: "Tarifs", href: "#tarifs" },
-    { label: "Contact", href: "#contact" },
+    { label: "Services", href: "/#services" },
+    { label: "Tarifs", href: "/#tarifs" },
+    { label: "Contact", href: "/#contact" },
   ],
   legal: [
     { label: "Mentions legales", href: "#" },
@@ -86,7 +86,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+33600000000"
+                  href="tel:+33613920150"
                   className="flex items-center gap-3 text-sm text-text-pale/60 transition-colors hover:text-primary-glow"
                 >
                   <Phone size={16} className="shrink-0 text-primary-glow/60" />

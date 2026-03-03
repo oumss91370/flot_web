@@ -5,8 +5,8 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 const navLinks = [
-  { label: "Services", href: "#services" },
-  { label: "Tarifs", href: "#tarifs" },
+  { label: "Services", href: "/#services" },
+  { label: "Tarifs", href: "/#tarifs" },
 ];
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -55,7 +55,7 @@ export default function Navbar() {
           ))}
         </ul>
         <Link
-          href="#contact"
+          href="/#contact"
           className="hidden rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-white-clean shadow-lg shadow-primary/20 transition-all duration-300 hover:bg-primary-glow hover:shadow-primary-glow/30 hover:scale-105 md:inline-flex"
         >
           Contact
@@ -95,7 +95,7 @@ export default function Navbar() {
                 </motion.div>
               ))}
               <Link
-                href="#contact"
+                href="/#contact"
                 onClick={() => setMobileOpen(false)}
                 className="mt-2 rounded-full bg-primary px-6 py-3 text-center text-sm font-semibold text-white-clean transition-all hover:bg-primary-glow"
               >

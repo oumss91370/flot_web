@@ -46,7 +46,7 @@ export default function Contact() {
               <span className="relative z-10">Discutons de votre projet</span>
             </Link>
             <a
-              href="#tarifs"
+            href="/#tarifs"
               className="inline-flex items-center gap-2 rounded-full border border-text-pale/20 px-8 py-4 text-lg font-semibold text-text-pale transition-all duration-300 hover:border-secondary/40 hover:bg-secondary/10 hover:text-white-clean"
             >
               Voir les tarifs
