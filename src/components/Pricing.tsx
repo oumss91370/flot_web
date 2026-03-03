@@ -89,7 +89,7 @@ const plans: PricingPlan[] = [
     name: "Optimisation",
     emoji: "🔧",
     price: "199€",
-    priceLabel: "à partir de",
+    priceLabel: "",
     description: "Boostez votre site existant (WordPress, Wix, etc.).",
     accentColor: "from-[#1D6D7A]/30 to-[#1a8a7a]/20",
     glowColor: "shadow-[#1D6D7A]/20",
@@ -208,15 +208,18 @@ export default function Pricing() {
                       {plan.priceLabel}
                     </p>
                   )}
-                  <span
-                    className={`text-[2.6rem] font-extrabold leading-none tracking-tight transition-colors duration-300 ${
-                      plan.suggested
-                        ? "text-[#24919f] group-hover:text-[#2ba8b8]"
-                        : "text-white-clean group-hover:text-[#24919f]"
-                    }`}
-                  >
-                    {plan.price}
-                  </span>
+                  <div className="flex items-baseline gap-1.5">
+                    <span className="text-sm font-medium text-text-pale/50">dès</span>
+                    <span
+                      className={`text-[2.6rem] font-extrabold leading-none tracking-tight transition-colors duration-300 ${
+                        plan.suggested
+                          ? "text-[#24919f] group-hover:text-[#2ba8b8]"
+                          : "text-white-clean group-hover:text-[#24919f]"
+                      }`}
+                    >
+                      {plan.price}
+                    </span>
+                  </div>
                 </div>
 
                 {/* Divider animé */}
