@@ -152,7 +152,7 @@ export default function RootLayout({
             name: "Création de site web vitrine",
             description: "Site vitrine sur-mesure, responsive et optimisé SEO.",
           },
-          price: "499",
+          price: "399",
           priceCurrency: "EUR",
         },
         {
@@ -162,7 +162,7 @@ export default function RootLayout({
             name: "Site web Essentiel",
             description: "1 à 5 pages sur-mesure, copywriting et stratégie SEO.",
           },
-          price: "899",
+          price: "799",
           priceCurrency: "EUR",
         },
         {
@@ -173,7 +173,7 @@ export default function RootLayout({
             description:
               "5 à 10 pages, SEO avancé, base de données et support 24/7.",
           },
-          price: "1399",
+          price: "1099",
           priceCurrency: "EUR",
         },
         {

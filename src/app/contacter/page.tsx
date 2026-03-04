@@ -29,7 +29,7 @@ const jsonLdFAQ = {
       name: "Quels sont les délais de livraison d'un site web ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Nos sites sont livrés en 2 à 4 semaines selon la formule choisie. Un site Starter (499€) est livré en 1 à 2 semaines, un Essentiel (899€) en 2 à 3 semaines, un Premium (1 399€) en 3 à 4 semaines. Les délais sont fixés dès la signature du devis et scrupuleusement respectés.",
+        text: "Nos sites sont livrés en 2 à 4 semaines selon la formule choisie. Un site Starter (399€) est livré en 1 à 2 semaines, un Essentiel (799€) en 2 à 3 semaines, un Premium (1 099€) en 3 à 4 semaines. Les délais sont fixés dès la signature du devis et scrupuleusement respectés.",
       },
     },
     {
@@ -37,7 +37,7 @@ const jsonLdFAQ = {
       name: "Quels sont les tarifs de Flot Web ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Nos sites web démarrent à 499€ (Starter), 899€ (Essentiel), 1 399€ (Premium). L'optimisation de site existant (WordPress, Wix…) est disponible dès 199€. Aucun coût caché, devis gratuit sous 24h.",
+        text: "Nos sites web démarrent à 399€ (Starter), 799€ (Essentiel), 1 099€ (Premium). L'optimisation de site existant (WordPress, Wix…) est disponible dès 199€. Aucun coût caché, devis gratuit sous 24h.",
       },
     },
     {

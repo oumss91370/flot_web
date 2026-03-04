@@ -24,7 +24,7 @@ const plans: PricingPlan[] = [
   {
     name: "Starter",
     emoji: "⚡",
-    price: "499€",
+    price: "399€",
     priceLabel: "",
     description: "Idéal pour lancer votre présence en ligne rapidement.",
     accentColor: "from-[#1a8a7a]/30 to-[#1D6D7A]/20",
@@ -45,7 +45,7 @@ const plans: PricingPlan[] = [
   {
     name: "Essentiel",
     emoji: "🌊",
-    price: "899€",
+    price: "799€",
     priceLabel: "",
     description: "La formule idéale pour les entreprises en croissance, Site clefs en main !",
     suggested: true,
@@ -67,7 +67,7 @@ const plans: PricingPlan[] = [
   {
     name: "Premium",
     emoji: "🚀",
-    price: "1 399€",
+    price: "1 099€",
     priceLabel: "",
     description: "La solution complète pour dominer votre marché en ligne.",
     accentColor: "from-[#1a8a7a]/30 to-[#4F90C9]/20",
@@ -76,7 +76,7 @@ const plans: PricingPlan[] = [
       { text: "5 à 10 pages sur-mesure", included: true },
       { text: "Design responsive premium", included: true },
       { text: "Révisions illimitées", included: true },
-      { text: "Hébergement premium", included: true },
+      { text: "Gestion d'Hébergement premium", included: true },
       { text: "Boutique en ligne complète", included: true },
       { text: "SEO avancé complet", included: true },
       { text: "Base de données intégrée", included: true },
