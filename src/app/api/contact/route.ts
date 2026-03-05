@@ -5,7 +5,14 @@ export async function POST(req: NextRequest) {
   const resend = new Resend(process.env.RESEND_API_KEY);
 
   try {
-    const { company, email, service, message } = await req.json();
+    let body: { company?: string; email?: string; service?: string; message?: string };
+    try {
+      body = await req.json();
+    } catch {
+      return NextResponse.json({ error: "Corps de requête invalide." }, { status: 400 });
+    }
+
+    const { company, email, service, message } = body;
 
     if (!company || !email || !service || !message) {
       return NextResponse.json({ error: "Champs manquants." }, { status: 400 });

@@ -40,8 +40,14 @@ export default function ContactForm() {
         body: JSON.stringify(form),
       });
       if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || "Erreur lors de l'envoi.");
+        let message = "Erreur lors de l'envoi.";
+        try {
+          const data = await res.json();
+          message = data.error || message;
+        } catch {
+          // réponse non-JSON (ex: erreur HTML Vercel)
+        }
+        throw new Error(message);
       }
       setSubmitted(true);
     } catch (err: unknown) {
