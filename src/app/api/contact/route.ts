@@ -2,6 +2,15 @@ import { Resend } from "resend";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
+  // Vérification explicite de la clé API
+  if (!process.env.RESEND_API_KEY) {
+    console.error("RESEND_API_KEY manquante dans les variables d'environnement Vercel");
+    return NextResponse.json(
+      { error: "Configuration serveur manquante. Contactez-nous directement à contact@flotweb.com" },
+      { status: 500 }
+    );
+  }
+
   const resend = new Resend(process.env.RESEND_API_KEY);
 
   try {
