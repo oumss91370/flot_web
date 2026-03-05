@@ -27,12 +27,28 @@ export default function ContactForm() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
+  const [error, setError] = useState<string | null>(null);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1200));
-    setLoading(false);
-    setSubmitted(true);
+    setError(null);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || "Erreur lors de l'envoi.");
+      }
+      setSubmitted(true);
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "Une erreur est survenue. Réessayez ou contactez-nous directement.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -83,6 +99,11 @@ export default function ContactForm() {
                     <><Send size={18} />Envoyer mon message</>
                   )}
                 </button>
+                {error && (
+                  <p className="mt-2 rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-400">
+                    ⚠️ {error}
+                  </p>
+                )}
               </form>
             </>
           ) : (
