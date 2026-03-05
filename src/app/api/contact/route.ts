@@ -89,16 +89,19 @@ export async function POST(req: NextRequest) {
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; background: #f8fafc; padding: 32px; border-radius: 12px;">
 
-          <div style="background: linear-gradient(135deg, #183150, #1D6D7A); padding: 32px 24px; border-radius: 10px; margin-bottom: 28px; text-align: center;">
-            <h1 style="color: #ffffff; margin: 0 0 8px; font-size: 24px;">✅ Message bien reçu !</h1>
-            <p style="color: #C3D8EB; margin: 0; font-size: 14px;">Nous vous répondons sous <strong>24h</strong></p>
-          </div>
+          
 
           <p style="font-size: 15px; color: #334155; line-height: 1.7; margin-bottom: 20px;">
             Bonjour <strong>${company}</strong>,<br/><br/>
             Merci pour votre message ! Notre équipe a bien reçu votre demande concernant
             <strong style="color: #1D6D7A;">${service}</strong> et vous recontactera sous <strong>24h ouvrées</strong>.
           </p>
+          
+          <div style="text-align: center; margin-bottom: 28px;">
+            <a href="https://calendly.com/contact-flotweb/30min" style="background: #1D6D7A; color: white; padding: 12px 32px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 14px; display: inline-block;">
+              Prendre rendez-vous
+            </a>
+          </div>
 
           <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 20px; margin-bottom: 24px;">
             <p style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #64748b; letter-spacing: 0.05em; margin: 0 0 8px;">Récapitulatif de votre message</p>
@@ -106,14 +109,10 @@ export async function POST(req: NextRequest) {
           </div>
 
           <p style="font-size: 13px; color: #64748b; line-height: 1.6; margin-bottom: 24px;">
-            En attendant, n'hésitez pas à consulter nos <a href="https://flotweb.com/#tarifs" style="color: #1D6D7A;">tarifs</a> ou nos <a href="https://flotweb.com/#services" style="color: #1D6D7A;">services</a> pour préparer notre échange.
+            En attendant, consulter nos <a href="https://flotweb.com/#tarifs" style="color: #1D6D7A;">tarifs</a> ou nos <a href="https://flotweb.com/#services" style="color: #1D6D7A;">services</a> pour préparer notre échange.
           </p>
 
-          <div style="text-align: center; margin-bottom: 28px;">
-            <a href="https://calendly.com/contact-flotweb/30min" style="background: #1D6D7A; color: white; padding: 12px 32px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 14px; display: inline-block;">
-              Prendre randez-vous
-            </a>
-          </div>
+          
 
           <hr style="border: none; border-top: 1px solid #e2e8f0; margin-bottom: 20px;" />
           <p style="text-align: center; font-size: 12px; color: #94a3b8; margin: 0;">
