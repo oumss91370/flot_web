@@ -1,4 +1,6 @@
 import { MetadataRoute } from "next";
+import { cities } from "@/data/cities";
+import { locationKeywords } from "@/data/location-keywords";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://flotweb.com";
@@ -94,6 +96,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.3,
     },
+    // 378 programmatic SEO location pages (9 keywords × 42 cities)
+    ...cities.flatMap((city) =>
+      locationKeywords.map((kw) => ({
+        url: `${baseUrl}/${kw.slug}/${city.slug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+      }))
+    ),
   ];
 }
 
