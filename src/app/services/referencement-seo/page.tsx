@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Référencement SEO | Agence SEO Paris - Positionnement Google",
+  title: "Référencement SEO - Agence SEO Paris",
   description:
     "Agence SEO à Paris. Audit SEO complet, optimisation on-page, SEO technique, stratégie de contenu. Améliorez votre positionnement Google et générez du trafic qualifié. Devis gratuit.",
   alternates: {

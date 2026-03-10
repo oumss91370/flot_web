@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blog | Conseils Web, SEO & Design pour votre Business",
+  title: "Blog - Conseils Web, SEO & Design",
   description:
     "Découvrez nos articles sur la création de sites web, le référencement SEO, le design UI/UX et la stratégie digitale. Conseils d'experts pour booster votre présence en ligne.",
   alternates: {

@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { Globe, CheckCircle2, ArrowRight, Target, TrendingUp, Users } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Stratégie Digitale | Accompagnement & Transformation Numérique",
+  title: "Stratégie Digitale & Transformation",
   description:
     "Accompagnement en stratégie digitale : audit de présence en ligne, branding, stratégie de contenu, KPIs et suivi. Transformez votre vision en résultats concrets. Devis gratuit.",
   alternates: {

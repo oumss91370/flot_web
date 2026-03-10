@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { Calendar, Clock, ArrowLeft, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Core Web Vitals : comment la vitesse impacte votre SEO",
+  title: "Core Web Vitals : Impact sur votre SEO",
   description:
     "Google utilise les Core Web Vitals (LCP, INP, CLS) comme facteur de classement. Découvrez comment optimiser ces métriques pour améliorer votre positionnement et vos conversions.",
   alternates: {
@@ -99,7 +99,7 @@ export default function Article() {
 
           <div className="mt-10 space-y-8 text-text-pale/80 leading-relaxed">
             <p>
-              Depuis 2021, Google intègre les <strong className="text-white-clean">Core Web Vitals</strong> comme facteur de classement. Ce sont trois métriques qui mesurent l&apos;expérience utilisateur réelle de votre site. Un site rapide et stable est mieux positionné — et convertit mieux.
+              Depuis 2021, Google intègre les <strong className="text-white-clean">Core Web Vitals</strong> comme facteur de classement. Ce sont trois métriques qui mesurent l&apos;expérience utilisateur réelle de votre site. Un site rapide et stable est mieux positionné, et convertit mieux.
             </p>
 
             <h2 className="text-2xl font-bold text-white-clean">Les 3 métriques Core Web Vitals</h2>

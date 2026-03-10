@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { Smartphone, CheckCircle2, ArrowRight, Bell, Cpu, Rocket } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Applications Mobiles iOS & Android | Développement React Native",
+  title: "Apps Mobiles iOS & Android - React Native",
   description:
     "Développement d'applications mobiles iOS et Android avec React Native. Applications cross-platform performantes, notifications push, publication App Store et Google Play. Devis gratuit.",
   alternates: {

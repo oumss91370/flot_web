@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { Palette, CheckCircle2, ArrowRight, Eye, Layers, MousePointerClick } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Design UI/UX Premium | Interfaces Web Modernes & Intuitives",
+  title: "Design UI/UX Premium - Interfaces Web",
   description:
     "Design UI/UX professionnel pour sites web et applications. Maquettes Figma, design system, animations fluides, accessibilité. Augmentez vos conversions de 200 %. Devis gratuit.",
   alternates: {
@@ -98,7 +98,7 @@ export default function DesignUiUxPage() {
             <div className="rounded-2xl border border-secondary/20 bg-secondary/5 p-8 md:p-10">
               <h2 className="text-2xl font-bold text-white-clean mb-4">Le design, clé de votre succès digital</h2>
               <p className="text-text-pale/80 leading-relaxed">
-                Le design n&apos;est pas que de l&apos;esthétique — c&apos;est la clé d&apos;une expérience utilisateur qui convertit. Chaque pixel est pensé pour guider vos visiteurs vers l&apos;action. C&apos;est votre avantage concurrentiel le plus visible et le plus impactant.
+                Le design va au-delà de l&apos;esthétique : il guide vos visiteurs vers l&apos;action. Chaque pixel sert votre taux de conversion. C&apos;est votre avantage concurrentiel le plus visible et le plus impactant.
               </p>
             </div>
           </section>

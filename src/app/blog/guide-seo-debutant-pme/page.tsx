@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { Calendar, Clock, ArrowLeft, ArrowRight, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Le guide SEO complet pour les PME : de 0 à la première page Google",
+  title: "Guide SEO pour PME : Première Page Google",
   description:
     "Apprenez les bases du référencement naturel : recherche de mots-clés, optimisation on-page, SEO technique et stratégie de contenu. Guide étape par étape pour les PME et entrepreneurs.",
   alternates: {

@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Création de Site Web Sur-Mesure | Développement Next.js & React",
+  title: "Création de Site Web Sur-Mesure Next.js",
   description:
     "Création de sites web professionnels sur-mesure avec Next.js et React. Sites vitrines, e-commerce, applications web. Performance optimale, SEO intégré, responsive design. Devis gratuit.",
   alternates: {
@@ -124,7 +124,7 @@ export default function CreationSiteWebPage() {
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-pale/70">
               Nous concevons des sites et applications web haute performance
-              avec Next.js et React — les technologies utilisées par Vercel,
+              avec Next.js et React, les technologies utilisées par Vercel,
               Netflix et Airbnb.
             </p>
           </div>

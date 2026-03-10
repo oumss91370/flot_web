@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Nos Services | Agence Web, SEO, Design UI/UX & Applications",
+  title: "Nos Services Web, SEO & Design",
   description:
     "Découvrez tous les services de Flot Web : création de sites web sur-mesure, référencement SEO, design UI/UX, maintenance, stratégie digitale et applications mobiles. Devis gratuit.",
   alternates: {

@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { Calendar, Clock, ArrowLeft, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Pourquoi un site web professionnel est indispensable en 2025",
+  title: "Site Web Pro : Pourquoi c'est Clé en 2025",
   description:
     "75 % des consommateurs jugent la crédibilité d'une entreprise sur son site web. Découvrez pourquoi un site professionnel est le meilleur investissement digital pour votre entreprise.",
   alternates: {
@@ -79,7 +79,7 @@ export default function Article() {
           {/* Content */}
           <div className="mt-10 space-y-8 text-text-pale/80 leading-relaxed">
             <p>
-              En 2025, votre site web est bien plus qu&apos;une simple carte de visite en ligne. C&apos;est votre commercial le plus efficace, disponible 24h/24, 7j/7. Pourtant, de nombreuses entreprises négligent encore cet investissement crucial.
+              En 2025, votre site web est bien plus qu&apos;une simple carte de visite en ligne. C&apos;est votre commercial le plus efficace, disponible 24h/24, 7j/7. Pourtant, de nombreuses entreprises négligent encore cet investissement.
             </p>
 
             <h2 className="text-2xl font-bold text-white-clean">La première impression se joue en ligne</h2>
@@ -100,7 +100,7 @@ export default function Article() {
 
             <h2 className="text-2xl font-bold text-white-clean">Le SEO, votre meilleur investissement</h2>
             <p>
-              Un site professionnel est construit avec le <Link href="/services/referencement-seo" className="text-primary-glow hover:underline">référencement SEO</Link> en tête dès le départ. Structure sémantique HTML, balises meta optimisées, données structurées JSON-LD, sitemap XML — autant d&apos;éléments invisibles pour vos visiteurs mais essentiels pour Google.
+              Un site professionnel est construit avec le <Link href="/services/referencement-seo" className="text-primary-glow hover:underline">référencement SEO</Link> en tête dès le départ. Structure sémantique HTML, balises meta optimisées, données structurées JSON-LD, sitemap XML : autant d&apos;éléments invisibles pour vos visiteurs mais essentiels pour Google.
             </p>
             <p>
               Le SEO génère <strong className="text-white-clean">10x plus de trafic</strong> que les réseaux sociaux. Et contrairement à la publicité payante, ce trafic est gratuit et durable.
@@ -108,7 +108,7 @@ export default function Article() {
 
             <h2 className="text-2xl font-bold text-white-clean">Le mobile n&apos;est plus une option</h2>
             <p>
-              Plus de <strong className="text-white-clean">60 % du trafic web</strong> provient des smartphones. Un site qui ne s&apos;adapte pas parfaitement aux écrans mobiles perd la majorité de ses visiteurs. Le responsive design n&apos;est plus un bonus — c&apos;est une exigence de base.
+              Plus de <strong className="text-white-clean">60 % du trafic web</strong> provient des smartphones. Un site qui ne s&apos;adapte pas parfaitement aux écrans mobiles perd la majorité de ses visiteurs. Le responsive design est devenu une exigence, pas un simple bonus.
             </p>
 
             <h2 className="text-2xl font-bold text-white-clean">Combien coûte un site professionnel ?</h2>

@@ -87,7 +87,7 @@ export default function AProposPage() {
                 Nous croyons que chaque entreprise mérite une présence en ligne à la hauteur de ses ambitions. Trop de sites web sont lents, mal référencés ou visuellement datés. Notre mission est de changer cela.
               </p>
               <p className="text-text-pale/80 leading-relaxed">
-                Nous combinons les technologies les plus performantes — <strong className="text-white-clean">Next.js, React, Vercel</strong> — avec un design soigné et une stratégie SEO rigoureuse pour créer des sites qui ne se contentent pas d&apos;exister, mais qui <strong className="text-white-clean">convertissent</strong>.
+                Nous combinons les technologies les plus performantes (<strong className="text-white-clean">Next.js, React, Vercel</strong>) avec un design soigné et une stratégie SEO rigoureuse pour créer des sites qui <strong className="text-white-clean">convertissent</strong>.
               </p>
             </div>
           </section>

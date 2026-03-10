@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { ShieldCheck, CheckCircle2, ArrowRight, Activity, Lock, RefreshCw } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Maintenance & Sécurité Web | Surveillance 24/7 & Protection",
+  title: "Maintenance & Sécurité Web 24/7",
   description:
     "Maintenance et sécurité de sites web. Surveillance 24/7, mises à jour automatiques, sauvegardes quotidiennes, protection DDoS, monitoring Core Web Vitals. Gardez votre site performant et sécurisé.",
   alternates: {
@@ -78,7 +78,7 @@ export default function MaintenanceSecuritePage() {
             <div className="rounded-2xl border border-secondary/20 bg-secondary/5 p-8 md:p-10">
               <h2 className="text-2xl font-bold text-white-clean mb-4">Pourquoi la maintenance est essentielle</h2>
               <p className="text-text-pale/80 leading-relaxed">
-                Un site non maintenu perd en moyenne 7 % de trafic par mois à cause de la dégradation technique. Failles de sécurité, dépendances obsolètes, certificats expirés — chaque risque ignoré est une porte ouverte aux problèmes. Nous assurons la tranquillité d&apos;esprit.
+                Un site non maintenu perd en moyenne 7 % de trafic par mois à cause de la dégradation technique. Failles de sécurité, dépendances obsolètes, certificats expirés : chaque risque ignoré est une porte ouverte aux problèmes. Nous assurons la tranquillité d&apos;esprit.
               </p>
             </div>
           </section>
