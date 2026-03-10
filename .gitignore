@@ -65,6 +65,7 @@ next-env.d.ts
 # ── Agents / Skills (outils dev locaux) ──
 .agents/
 skills-lock.json
+claude.md
 
 # ── Images sources (racine) — déjà dans public/images/ ──
 image-arriere-plan-bateau.webp

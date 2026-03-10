@@ -37,7 +37,7 @@ const jsonLdFAQ = {
       name: "Quels sont les tarifs de Flot Web ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Nos sites web démarrent à 399€ (Starter), 799€ (Essentiel), 1 099€ (Premium). L'optimisation de site existant (WordPress, Wix…) est disponible dès 199€. Aucun coût caché, devis gratuit sous 24h.",
+        text: "Nos sites web démarrent à 399€ (Starter), 799€ (Essentiel), 1 099€ (Premium). L'optimisation de site existant (WordPress, Wix…) est disponible dès 99€. Aucun coût caché, devis gratuit sous 24h.",
       },
     },
     {

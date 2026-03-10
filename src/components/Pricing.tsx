@@ -53,7 +53,7 @@ const plans: PricingPlan[] = [
     glowColor: "shadow-[#24919f]/30",
     features: [
       { text: "1 à 5 pages sur-mesure", included: true },
-      { text: "Stratégie SEO avancé", included: true },
+      { text: "SEO naturelle", included: true },
       { text: "Formulaire contact", included: true },
       { text: "Prise de RDV", included: true },
       { text: "Design responsive", included: true },
@@ -67,7 +67,7 @@ const plans: PricingPlan[] = [
   {
     name: "Premium",
     emoji: "🚀",
-    price: "1 099€",
+    price: "1 499€",
     priceLabel: "",
     description: "La solution complète pour dominer votre marché en ligne.",
     accentColor: "from-[#1a8a7a]/30 to-[#4F90C9]/20",
@@ -78,7 +78,7 @@ const plans: PricingPlan[] = [
       { text: "Révisions illimitées", included: true },
       { text: "Gestion d'Hébergement premium", included: true },
       { text: "Boutique en ligne complète", included: true },
-      { text: "SEO avancé complet", included: true },
+      { text: "SEO avancé complet option*", included: true },
       { text: "Base de données intégrée", included: true },
       { text: "Support prioritaire 7j/7j", included: true },
       { text: "Maintenance continue", included: true },
@@ -88,7 +88,7 @@ const plans: PricingPlan[] = [
   {
     name: "Optimisation",
     emoji: "🔧",
-    price: "199€",
+    price: "799€",
     priceLabel: "",
     description: "Boostez votre site existant (WordPress, Wix, etc.).",
     accentColor: "from-[#1D6D7A]/30 to-[#1a8a7a]/20",
