@@ -4,14 +4,16 @@ import Link from "next/link";
 import { Mail, Phone, MapPin } from "lucide-react";
 const footerLinks = {
   navigation: [
-    { label: "Services", href: "/#services" },
+    { label: "Services", href: "/services" },
+    { label: "Blog", href: "/blog" },
+    { label: "À Propos", href: "/a-propos" },
     { label: "Tarifs", href: "/#tarifs" },
-    { label: "Contact", href: "/#contact" },
+    { label: "Contact", href: "/contacter" },
   ],
   legal: [
-    { label: "Mentions légales", href: "#" },
-    { label: "Politique de confidentialité", href: "#" },
-    { label: "CGV", href: "#" },
+    { label: "Mentions légales", href: "/mentions-legales" },
+    { label: "Politique de confidentialité", href: "/mentions-legales#donnees" },
+    { label: "CGV", href: "/mentions-legales" },
   ],
 };
 export default function Footer() {

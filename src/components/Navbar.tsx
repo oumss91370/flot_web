@@ -5,8 +5,10 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 const navLinks = [
-  { label: "Services", href: "/#services" },
+  { label: "Services", href: "/services" },
   { label: "Tarifs", href: "/#tarifs" },
+  { label: "Blog", href: "/blog" },
+  { label: "À Propos", href: "/a-propos" },
 ];
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
