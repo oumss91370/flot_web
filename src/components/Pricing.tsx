@@ -24,7 +24,7 @@ const plans: PricingPlan[] = [
   {
     name: "Starter",
     emoji: "⚡",
-    price: "399€",
+    price: "499€",
     priceLabel: "",
     description: "Idéal pour lancer votre présence en ligne rapidement.",
     accentColor: "from-[#1a8a7a]/30 to-[#1D6D7A]/20",
@@ -45,7 +45,7 @@ const plans: PricingPlan[] = [
   {
     name: "Essentiel",
     emoji: "🌊",
-    price: "799€",
+    price: "899€",
     priceLabel: "",
     description: "La formule idéale pour les entreprises en croissance, Site clefs en main !",
     suggested: true,
@@ -67,7 +67,7 @@ const plans: PricingPlan[] = [
   {
     name: "Premium",
     emoji: "🚀",
-    price: "1 499€",
+    price: "2 499€",
     priceLabel: "",
     description: "La solution complète pour dominer votre marché en ligne.",
     accentColor: "from-[#1a8a7a]/30 to-[#4F90C9]/20",
@@ -88,7 +88,7 @@ const plans: PricingPlan[] = [
   {
     name: "Optimisation",
     emoji: "🔧",
-    price: "799€",
+    price: "1799€",
     priceLabel: "",
     description: "Boostez votre site existant (WordPress, Wix, etc.).",
     accentColor: "from-[#1D6D7A]/30 to-[#1a8a7a]/20",
