@@ -18,7 +18,7 @@ const faqs = [
     icon: "💰",
     question: "Tarifs transparents",
     answer:
-      "Nos sites web démarrent à 399€ (Starter), 799€ (Essentiel), 1 099€ (Premium). L'optimisation de site existant  est disponible dès 199€. Aucun coût caché, devis gratuit sous 24h.",
+      "Nos sites web démarrent à 399€ (Starter), 799€ (Essentiel), 1 099€ (Premium). L'optimisation de site existant  est disponible dès 899€. Aucun coût caché, devis gratuit sous 24h.",
     cta: { label: "Consulter tous nos tarifs", href: "/#tarifs" },
   },
   {

@@ -5,12 +5,7 @@ import { MessageCircle } from "lucide-react";
 export default function Hero() {
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden" aria-label="Accueil Flot Web">
-      <motion.div
-        initial={{ opacity: 0, x: -60 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1.4, ease: "easeOut" }}
-        className="absolute inset-0"
-      >
+      <div className="absolute inset-0">
         <Image
           src="/images/image-arriere-plan-bateau.webp"
           alt="Proue de bateau naviguant sur l'océan — Flot Web agence digitale"
@@ -18,9 +13,9 @@ export default function Hero() {
           sizes="100vw"
           className="object-cover"
           priority
-          quality={90}
+          quality={75}
         />
-      </motion.div>
+      </div>
       <div className="absolute inset-0 bg-linear-to-br from-bg-deep/80 via-bg-deep/60 to-bg-deep/75" />
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: "radial-gradient(circle at 1px 1px, rgba(195,216,235,0.4) 1px, transparent 0)",
@@ -36,27 +31,17 @@ export default function Hero() {
           <span className="h-2 w-2 rounded-full bg-primary-glow animate-pulse" />
           <span className="text-sm font-medium text-text-pale">Agence Digitale Premium</span>
         </motion.div>
-        <motion.h1
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          className="max-w-4xl text-4xl font-extrabold leading-[1.1] tracking-tight text-white-clean sm:text-5xl md:text-6xl lg:text-7xl"
-        >
+        <h1 className="max-w-4xl text-4xl font-extrabold leading-[1.1] tracking-tight text-white-clean sm:text-5xl md:text-6xl lg:text-7xl">
           Créons votre{" "}
           <span className="bg-linear-to-r from-primary-glow via-secondary to-primary-glow bg-clip-text text-transparent">
             présence digitale
           </span>{" "}
           d&#39;exception
-        </motion.h1>
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.7 }}
-          className="mt-6 max-w-2xl text-lg leading-relaxed text-text-pale/80 sm:text-xl"
-        >
+        </h1>
+        <p className="mt-6 max-w-2xl text-lg leading-relaxed text-text-pale/80 sm:text-xl">
           Sites web sur-mesure, référencement SEO et design UI/UX haut de gamme.
           Nous propulsons les entreprises ambitieuses vers de nouveaux horizons.
-        </motion.p>
+        </p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
