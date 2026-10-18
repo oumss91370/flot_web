@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Politique de confidentialité",
   description:
-    "Politique de confidentialité de Flot Web et de l'application Publication Flot Web : données utilisées via les API Google et YouTube, stockage, conservation et révocation.",
+    "Politique de confidentialité de Flot Web et de l'application Publication Flot Web : données utilisées via les API Google, YouTube et TikTok, stockage, conservation et révocation.",
   alternates: {
     canonical: "https://flotweb.com/confidentialite",
   },
@@ -123,6 +123,35 @@ export default function ConfidentialitePage() {
                 . Les données traitées par Google sont régies par les{" "}
                 <a href="https://policies.google.com/privacy" className={link} target="_blank" rel="noopener noreferrer">
                   Règles de confidentialité de Google
+                </a>
+                .
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-bold text-white-clean mb-3">6 bis. Données et services TikTok</h2>
+              <p>
+                Publication Flot Web utilise aussi le Login Kit et la Content Posting API de TikTok, après autorisation
+                explicite du titulaire du compte TikTok. Elle accède uniquement aux informations de profil de base
+                (identifiant ouvert, nom affiché, avatar) et à l&apos;autorisation de téléverser et publier des vidéos
+                sur ce compte.
+              </p>
+              <p className="mt-3">
+                Ces données servent seulement à afficher le compte connecté et à publier les vidéos choisies par son
+                titulaire, avec la légende et le niveau de confidentialité qu&apos;il sélectionne. Elles ne sont ni
+                vendues, ni partagées, ni utilisées à des fins publicitaires. Les jetons TikTok sont stockés localement
+                comme les jetons Google, et les fichiers vidéo ne sont pas conservés après l&apos;envoi.
+              </p>
+              <p className="mt-3">
+                Vous pouvez révoquer l&apos;accès à tout moment dans l&apos;application TikTok (Paramètres et
+                confidentialité → Sécurité → Gérer les autorisations des applications). L&apos;utilisation de TikTok
+                reste régie par les{" "}
+                <a href="https://www.tiktok.com/legal/terms-of-service" className={link} target="_blank" rel="noopener noreferrer">
+                  Conditions d&apos;utilisation de TikTok
+                </a>{" "}
+                et sa{" "}
+                <a href="https://www.tiktok.com/legal/privacy-policy-eea" className={link} target="_blank" rel="noopener noreferrer">
+                  Politique de confidentialité
                 </a>
                 .
               </p>
