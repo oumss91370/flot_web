@@ -50,7 +50,7 @@ export default function Hero() {
         >
           {/* Bouton principal — glaçage transparent */}
           <a
-            href="/#contact"
+            href="#contact"
             className="group relative inline-flex items-center justify-center overflow-hidden rounded-full px-9 py-4 text-lg font-bold text-white transition-all duration-300 hover:scale-105"
             style={{
               background: "rgba(255,255,255,0.08)",
@@ -69,7 +69,7 @@ export default function Hero() {
 
           {/* Bouton secondaire — glaçage transparent */}
           <a
-            href="/#tarifs"
+            href="#tarifs"
             className="group relative inline-flex items-center justify-center overflow-hidden rounded-full px-9 py-4 text-lg font-bold text-white transition-all duration-300 hover:scale-105"
             style={{
               background: "rgba(255,255,255,0.05)",

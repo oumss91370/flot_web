@@ -4,6 +4,12 @@ import Services from "@/components/Services";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import FlotStudioTeaser from "@/components/FlotStudioTeaser";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://flotweb.com" },
+};
 
 const jsonLdBreadcrumb = {
   "@context": "https://schema.org",
@@ -30,6 +36,7 @@ export default function Home() {
         <Hero />
         <Services />
         <Pricing />
+        <FlotStudioTeaser />
         <Contact />
       </main>
       <Footer />

@@ -12,15 +12,15 @@ const footerLinks = {
   ],
   legal: [
     { label: "Mentions légales", href: "/mentions-legales" },
-    { label: "Politique de confidentialité", href: "/mentions-legales#donnees" },
-    { label: "CGV", href: "/mentions-legales" },
+    { label: "Politique de confidentialité", href: "/confidentialite" },
+    { label: "Conditions d'utilisation", href: "/conditions-utilisation" },
   ],
 };
 export default function Footer() {
   return (
     <footer className="relative border-t border-glass-border bg-bg-deep/90" aria-label="Pied de page Flot Web">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
-        <div className="grid gap-12 md:grid-cols-4">
+        <div className="grid gap-12 md:grid-cols-3 lg:grid-cols-5">
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-3">
               <Image
@@ -53,6 +53,29 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+          <div>
+            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white-clean">
+              Nos produits
+            </h4>
+            <ul className="space-y-2.5">
+              <li>
+                <Link
+                  href="/flot-studio"
+                  className="text-sm text-text-pale/60 transition-colors hover:text-primary-glow"
+                >
+                  Flot Studio
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="https://flotstudio.com"
+                  className="text-sm text-text-pale/60 transition-colors hover:text-primary-glow"
+                >
+                  flotstudio.com
+                </a>
+              </li>
             </ul>
           </div>
           <div>

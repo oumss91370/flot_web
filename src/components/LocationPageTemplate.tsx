@@ -62,8 +62,9 @@ export default function LocationPageTemplate({
       {
         '@type': 'ListItem',
         position: 2,
-        name: keyword.label.charAt(0).toUpperCase() + keyword.label.slice(1),
-        item: `${baseUrl}/${keyword.slug}`,
+        // /{keyword.slug} n'existe pas (404) : on pointe vers la page service liée.
+        name: keyword.relatedServiceLabel,
+        item: `${baseUrl}${keyword.relatedServicePath}`,
       },
       {
         '@type': 'ListItem',
@@ -148,10 +149,10 @@ export default function LocationPageTemplate({
                 <li aria-hidden="true">›</li>
                 <li>
                   <Link
-                    href={`/${keyword.slug}`}
-                    className="hover:text-primary-glow transition-colors capitalize"
+                    href={keyword.relatedServicePath}
+                    className="hover:text-primary-glow transition-colors"
                   >
-                    {keyword.label.charAt(0).toUpperCase() + keyword.label.slice(1)}
+                    {keyword.relatedServiceLabel}
                   </Link>
                 </li>
                 <li aria-hidden="true">›</li>
