@@ -8,6 +8,7 @@ const navLinks = [
   { label: "Services", href: "/services" },
   { label: "Tarifs", href: "/#tarifs" },
   { label: "Blog", href: "/blog" },
+  { label: "Flot Studio", href: "/flot-studio" },
   { label: "À Propos", href: "/a-propos" },
 ];
 export default function Navbar() {
