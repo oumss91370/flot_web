@@ -13,6 +13,18 @@ const nextConfig: NextConfig = {
     return [{ source: "/tiktok/media/:file", destination: "https://iytlhqctf5o0ff7e.public.blob.vercel-storage.com/tiktok-media/:file" }];
   },
 
+  // www.flotweb.com répondait 200 (site en double) : redirection permanente vers le domaine principal.
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.flotweb.com" }],
+        destination: "https://flotweb.com/:path*",
+        permanent: true,
+      },
+    ];
+  },
+
   // Headers de sécurité
   async headers() {
     return [

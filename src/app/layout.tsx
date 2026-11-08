@@ -13,9 +13,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://flotweb.com"),
-  alternates: {
-    canonical: "https://flotweb.com",
-  },
+  // Pas de canonique ici : chaque page déclare la sienne (sinon elle serait héritée vers l'accueil).
   icons: {
     icon: [
       { url: "/images/logo_flot.png", type: "image/png" },
